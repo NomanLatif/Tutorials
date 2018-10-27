@@ -41,6 +41,15 @@
             <version>4.9</version>
             <scope>test</scope>
         </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+		<dependency>
+		    <groupId>org.assertj</groupId>
+		    <artifactId>assertj-core</artifactId>
+		    <version>${assertj.version}</version>
+		    <scope>test</scope>
+		</dependency>
+        
     </dependencies>
 
     <build>
@@ -75,6 +84,7 @@
 
     <properties>
         <jersey.version>2.27</jersey.version>
+        <assertj.version>3.11.1</assertj.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 </project>
