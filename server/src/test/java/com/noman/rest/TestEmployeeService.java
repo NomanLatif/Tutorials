@@ -13,6 +13,7 @@ import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.client.ClientConfig;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.noman.rest.entity.Employees;
@@ -35,6 +36,7 @@ public class TestEmployeeService
 		server.shutdownNow();
 	}
 
+	@Ignore
 	@Test
 	public void testCanGetEmployees() throws Exception
 	{
